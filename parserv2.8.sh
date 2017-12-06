@@ -40,7 +40,11 @@ DEFAULT_DBs=/root/dbs.txt
 
 
 #add here an api.list checker if not present create automatically
-#if [ ]
+if [ ! -f api.list ]; then
+    touch api.list
+    printf "monero\nbitcoin\nethereum\nkarbowanec\nsumokoin" >> api.list
+fi
+
 
 
 #if first parameters is given as a file name use that file to populate else use the default database file
