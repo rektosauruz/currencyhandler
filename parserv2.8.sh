@@ -39,7 +39,7 @@ DEFAULT_DBs=/root/dbs.txt
 ### | Main Flow             | ====================================================#
 
 
-#add here an api.list checker if not present create automatically
+#api.list checker if not present create automatically
 if [ ! -f api.list ]; then
     touch api.list
     printf "monero\nbitcoin\nethereum\nkarbowanec\nsumokoin" >> api.list
