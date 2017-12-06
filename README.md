@@ -14,4 +14,5 @@ usage : ./parserv2.8.sh 1.[logfile name] 2.[y/n] 3.[y/n] 4.[y/n] 5.[y/n]
 
 
 
-
+script checks the internet connection and returns an echo 
+script checks for api.list and if not present creates one 

@@ -39,6 +39,9 @@ DEFAULT_DBs=/root/dbs.txt
 ### | Main Flow             | ====================================================#
 
 
+#add here an api.list checker if not present create automatically
+#if [ ]
+
 
 #if first parameters is given as a file name use that file to populate else use the default database file
 if [ -z "$1" ]; then
