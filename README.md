@@ -1,4 +1,4 @@
-#Currencyhandler
+# Currencyhandler
 
 
 **This simple script  grabs the current crypto currencies**  
