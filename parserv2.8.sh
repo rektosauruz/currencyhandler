@@ -40,9 +40,9 @@ DEFAULT_DBs=/root/dbs.txt
 
 
 #api.list checker if not present create automatically
-if [ ! -f api.list ]; then
-    touch api.list
-    printf "monero\nbitcoin\nethereum\nkarbowanec\nsumokoin" >> api.list
+if [ ! -f /root/api.list ]; then
+    touch /root/api.list
+    printf "monero\nbitcoin\nethereum\nkarbowanec\nsumokoin" >> /root/api.list
 fi
 
 
@@ -144,7 +144,7 @@ if [ "$4" == "y" ]; then
     echo -e "\t ${RLS}${RLS}${RLS}${GREEN}$cts${RLS}${RLS}${RLS}"
 fi
 
-for ccr in $(cat api.list); do
+for ccr in $(cat /root/api.list); do
 
     varx=`curl https://api.coinmarketcap.com/v1/ticker/$ccr/ 2>/dev/null | grep price_usd | cut -d "\"" -f4 &`
     varn=`curl https://api.coinmarketcap.com/v1/ticker/$ccr/ 2>/dev/null | grep name | cut -d "\"" -f4 &`
