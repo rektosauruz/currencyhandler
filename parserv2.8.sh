@@ -51,7 +51,7 @@ fi
 if [ -z "$1" ]; then
     database_name=$DEFAULT_DB
     echo -e "${RLS} ${RED}$EXPLANATION"
-    echo -e "${RLS} Usage : $0 ${BLUE}$USAGE_PARAMS ${RESET}"  # Simplified USAGE for files only
+    echo -e "${RLS} Usage : $0 ${GREEN}$USAGE_PARAMS ${RESET}"  # Simplified USAGE for files only
 else
     database_name=$1
 fi

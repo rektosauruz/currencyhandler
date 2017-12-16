@@ -1,7 +1,0 @@
- @ Sat_December_09_06:08:41 PM_EST_2017     UUID = 6 
-## Monero			=266.091 Delta_24h% = -4.2  Delta_1h% = 3.07 
-## Bitcoin			=15141.6 Delta_24h% = -8.21  Delta_1h% = 2.02 
-## Ethereum			=473.515 Delta_24h% = 3.47  Delta_1h% = -0.03 
-## Karbowanec			=1.05418 Delta_24h% = 1.33  Delta_1h% = 1.76 
-## Sumokoin			=0.828264 Delta_24h% = 23.8  Delta_1h% = -0.2 
-####################################################################

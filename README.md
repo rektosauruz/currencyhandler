@@ -17,4 +17,4 @@ usage : ./parserv2.8.sh 1.[logfile name] 2.[y/n] 3.[y/n] 4.[y/n] 5.[y/n]
 
 - [X]  script checks the internet connection and returns an echo []---
 - [X]  script checks for api.list and if not present creates one []---
-- [ ]  add if there is a database file and make it default if there is none present or previous
+- [X]  add if there is a database file and make it default if there is none present or previous
