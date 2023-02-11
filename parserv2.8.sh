@@ -7,8 +7,7 @@
     #usage          :./parserv2.sh 1.[filename] 2.[y/n] 3.[y/n] 4.[y/n] 5.[y/n]
     #notes          :this time the uuid creator will be fixed     
     #bash_version   :4.4.11(1)-release
-    #Donation XMR   :46Jh7aZkVCLKAjFiyNYD6vhrEFtwswVSbVsqMyGsrUUV1bjmQJv4EwFb2xWNqS3x7aWnMNM1UWKyfZd6ZcscqncSQEFpZtXs
-    #Donation BTC   :13MWtnPZPy54q3qhxgbYA14m89fZkn6noK
+
     #================================================================================
 
 
